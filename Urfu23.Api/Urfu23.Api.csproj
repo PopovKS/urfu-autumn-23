@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <OutputType>Library</OutputType>
+        <RootNamespace>Urfu23.Api</RootNamespace>
+        <PackageId>Urfu23.Api</PackageId>
+    </PropertyGroup>
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Urfu23.Core\Urfu23.Core.csproj" />
+    </ItemGroup>
+
+</Project>
